@@ -1,6 +1,6 @@
 # FinancialResearcher Crew
 
-Welcome to the FinancialResearcher Crew project, facilitating your day to day reserach of the specific company for potential investment. These agents/crew delivers up to date financial information about the company after careful consideration of latest news and article on the internet mentioning organization.
+Welcome to the FinancialResearcher Crew project, facilitating your day to day reserach of the specific company name given by the user for potential investment. These agents/crew delivers up to date financial information about the company after careful consideration of latest news and article on the internet mentioning organization. Research report will be saved in the output/report.md.
 
 ## Installation
 
