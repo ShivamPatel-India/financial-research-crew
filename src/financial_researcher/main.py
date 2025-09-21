@@ -6,12 +6,19 @@ from financial_researcher.crew import ResearchCrew
 # Create output directory if it doesn't exist
 os.makedirs('output', exist_ok=True)
 
+def get_company_input():
+    company_name = input("Enter company name: ").strip()
+    if not company_name:
+        print("Company name cannot be empty!")
+        return get_company_input()
+    return company_name
+
 def run():
     """
     Run the research crew.
     """
     inputs = {
-        'company': 'Nextlabs'
+        'company':  get_company_input()
     }
 
     # Create and run the crew
